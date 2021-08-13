@@ -1,0 +1,6 @@
+2021-02-23 22:16:01,516 - [ERROR] - dev06 - [msg]获取的项目信息为：{'name': 'XXX在线商城项目', 'leader': '开始', 'is_execute': True} - [views.py:194 ]
+2021-02-25 20:36:50,076 - [ERROR] - dev06 - [msg]获取的项目信息为：{'name': '测试平台开发项目144', 'leader': 'xxxx项目负责人111', 'is_execute': True} - [views.py:194 ]
+2021-02-25 20:45:47,439 - [ERROR] - dev06 - [msg]获取的项目信息为：{'name': '测试平台开发项目144', 'leader': 'xxxx项目负责人111', 'is_execute': True} - [views.py:194 ]
+2021-02-25 20:47:45,517 - [ERROR] - dev06 - [msg]获取的项目信息为：{'name': '测试平台开发项目144', 'leader': 'xxxx项目负责人111', 'is_execute': True} - [views.py:194 ]
+2021-02-25 21:47:00,318 - [ERROR] - dev06 - [msg]获取的项目信息为：{'name': '测试平台开发项目144', 'leader': 'xxxx项目负责人111', 'is_execute': True} - [views.py:203 ]
+2021-02-25 21:51:47,876 - [ERROR] - dev06 - [msg]获取的项目信息为：{'name': '测试平台开发项目144', 'leader': 'xxxx项目负责人111', 'is_execute': True} - [views.py:203 ]

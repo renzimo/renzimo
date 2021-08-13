@@ -1,0 +1,35 @@
+- config:
+    name: 获取项目列表数据接口测试
+    request:
+      base_url: http://localhost:8000
+- test:
+    extract:
+    - token: content.token
+    name: 登录接口_正向用例
+    request:
+      json:
+        password: $password
+        username: $username
+      method: POST
+      url: /user/login/
+    validate:
+    - check: status_code
+      comparator: equals
+      expected: 200
+    variables:
+    - username: keyou1
+    - password: '123456'
+- test:
+    name: 获取项目列表数据接口测试
+    request:
+      headers:
+        User-Agent: Mozilla/5.0 Aaron
+      method: POST
+      params:
+        page: '2'
+        size: '3'
+      url: /projects/
+    validate:
+    - check: status_code
+      comparator: equals
+      expected: 200

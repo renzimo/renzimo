@@ -1,0 +1,65 @@
+
+20210316212110
+    测试平台项目
+        登录接口
+            登录接口_正向用例.yaml
+        debugtalk.py
+        .env
+
+20210316213010
+    测试平台项目
+        登录接口
+            登录接口_正向用例.yaml
+        debugtalk.py
+        .env
+
+
+20210316213520
+    测试平台项目
+        登录接口
+            登录接口_正向用例.yaml
+            登录接口_用户名为空.yaml
+            登录接口_密码为空.yaml
+        debugtalk.py
+        .env
+
+
+20210316212520
+    测试平台项目
+        登录接口
+            登录接口_正向用例.yaml
+            登录接口_用户名为空.yaml
+            登录接口_密码为空.yaml
+        注册接口
+            xxx.yaml
+        创建项目接口
+            xxx.yaml
+        debugtalk.py
+        .env
+
+        {"config":{"name":"登录接口配置_自动化测试平台项目","request":{"headers":{"Accept":"application/json","User-Agent":"Mozilla/5.0 KeYou"}}}}
+
+
+ 一、runserver服务器为什么不能在线上使用？
+ 1.runserver支持单线程，性能较差
+
+ 2.一旦关闭调试模式之后，不再提供静态文件服务（找不到静态文件）
+
+ 3.安全性、稳定性非常差
+
+
+二、项目上线需要用什么服务器？
+1、Web服务器（提供静态文件服务、反向代理服务）
+nginx、apache
+
+2、应用服务器（提供封装为python的HTTP底层请求）
+gunicorn、uwsgi
+
+
+三、静态文件
+1.后端的静态文件收集
+a.可浏览器api页面
+b.api接口文档页面
+
+
+2.前端静态
